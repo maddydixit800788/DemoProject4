@@ -21,6 +21,7 @@ class HomeViewController: UIViewController {
         super.viewDidLayoutSubviews()
         
         // ContentView Design
+        // NEw line
         contentView.layer.masksToBounds = true
         contentView.layer.borderColor = #colorLiteral(red: 0.4948185682, green: 0.9115166664, blue: 0.7522329092, alpha: 1)
         contentView.layer.borderWidth = 8
