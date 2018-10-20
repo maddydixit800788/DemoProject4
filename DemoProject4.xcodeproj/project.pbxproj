@@ -12,6 +12,9 @@
 		18662758217AF32E0049DD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18662756217AF32E0049DD8C /* Main.storyboard */; };
 		1866275A217AF3320049DD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18662759217AF3320049DD8C /* Assets.xcassets */; };
 		1866275D217AF3320049DD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1866275B217AF3320049DD8C /* LaunchScreen.storyboard */; };
+		18F0E37B217AFD8100BE82F5 /* E-Learning.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F0E37A217AFD8100BE82F5 /* E-Learning.png */; };
+		18F0E37D217B009C00BE82F5 /* play_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F0E37C217B009C00BE82F5 /* play_1.png */; };
+		18F0E37F217B028500BE82F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0E37E217B028500BE82F5 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		18662759217AF3320049DD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1866275C217AF3320049DD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1866275E217AF3320049DD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F0E37A217AFD8100BE82F5 /* E-Learning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "E-Learning.png"; sourceTree = "<group>"; };
+		18F0E37C217B009C00BE82F5 /* play_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_1.png; sourceTree = "<group>"; };
+		18F0E37E217B028500BE82F5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				18662752217AF32E0049DD8C /* AppDelegate.swift */,
 				18662754217AF32E0049DD8C /* ViewController.swift */,
 				18662756217AF32E0049DD8C /* Main.storyboard */,
+				18F0E37A217AFD8100BE82F5 /* E-Learning.png */,
+				18F0E37C217B009C00BE82F5 /* play_1.png */,
 				18662759217AF3320049DD8C /* Assets.xcassets */,
 				1866275B217AF3320049DD8C /* LaunchScreen.storyboard */,
 				1866275E217AF3320049DD8C /* Info.plist */,
+				18F0E37E217B028500BE82F5 /* HomeViewController.swift */,
 			);
 			path = DemoProject4;
 			sourceTree = "<group>";
@@ -123,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1866275D217AF3320049DD8C /* LaunchScreen.storyboard in Resources */,
+				18F0E37D217B009C00BE82F5 /* play_1.png in Resources */,
 				1866275A217AF3320049DD8C /* Assets.xcassets in Resources */,
 				18662758217AF32E0049DD8C /* Main.storyboard in Resources */,
+				18F0E37B217AFD8100BE82F5 /* E-Learning.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +148,7 @@
 			files = (
 				18662755217AF32E0049DD8C /* ViewController.swift in Sources */,
 				18662753217AF32E0049DD8C /* AppDelegate.swift in Sources */,
+				18F0E37F217B028500BE82F5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KNQBWJK84T;
 				INFOPLIST_FILE = DemoProject4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.efurtherance.DemoProject4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KNQBWJK84T;
 				INFOPLIST_FILE = DemoProject4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.efurtherance.DemoProject4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
